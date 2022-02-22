@@ -1,0 +1,5 @@
+pip (or conda)
+requests
+psycopg2
+psycopg2.extras
+pandas

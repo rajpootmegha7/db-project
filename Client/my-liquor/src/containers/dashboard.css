@@ -1,0 +1,30 @@
+.cont-dashboard{
+    height: inherit;
+    width: 100%;
+    text-align: center;
+    background-image: url('../images/paint2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 85% ;
+
+}
+
+.dash-message{
+    display: inline-flex;
+    font-size: 6em;
+    padding: 5px 10px;
+    height: 3em;
+    font-family: 'Comforter', cursive;
+}
+
+.card-conatiner{
+    display: flex;
+    margin-left: 25%;
+}
+
+.text-user{
+    color: deeppink;
+    font-size: 2em;
+    position: relative;
+    margin-top: 10px;
+}

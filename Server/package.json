@@ -1,0 +1,27 @@
+{
+  "name": "Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd .. && cd Client/my-liquor && npm start",
+    "server": "nodemon index.js",
+    "start": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-promise": "^10.11.1",
+    "require": "^0.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

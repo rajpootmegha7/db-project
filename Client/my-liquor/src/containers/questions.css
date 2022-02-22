@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Raleway:wght@200&display=swap');
+
+.container-question{
+    width: 100%;
+    height: auto;
+    font-family: 'Raleway', sans-serif; 
+}
+
+.query-maker{
+    width: 100%;
+    height: auto;
+}
+
+
+.container-question > div:nth-child(1) {
+    height: 3em;
+    text-align: center;
+    font-size: xx-large;
+    padding: 13px 15px;
+    /* margin-top: auto; */
+}
+
+.container-countystate{
+    width: 100%;
+    display: inline-flex;
+    margin: 15px 7px;
+    text-align: center;
+}
+
+.drop-card{
+    /* margin: 0px 20px; */
+    display: grid;
+}
+.p-dropdown{
+    /* width: 2rem; */
+    padding: 3px 3px;
+    margin: 5px;
+}
+
+
+.container-query-cards{
+    display: inline-flex;
+    margin: 10px;
+}
+.container-query-cards > div{
+    padding: 5px 15px;
+}
+
+.result-contianer{
+    width: 100%;
+    height: auto;
+}
+.btn-set>button{
+    margin: 3px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn-set>button:nth-child(3):hover{
+    background: unset;
+    color: tomato;
+    border-color: tomato;
+}
+.btn-set>button:nth-child(3){
+    background: tomato;
+}
+.btn-set>button:nth-child(2):hover{
+    background: unset;
+    color: darkturquoise;
+    border-color: darkturquoise;
+}
+.btn-set>button:nth-child(2){
+    background: darkturquoise;
+}
+
+.query-contianer{
+    margin: 25px 5px;
+}
+
+.query-contianer > .p-inputtextarea{
+    color: black;
+    font-style: italic;
+}
+
+.container-premise{
+    border: 1px solid lightsalmon;
+    margin: 0px 5px;
+}
+.container-operation{
+    border: 1px solid lightskyblue;
+    margin: 0px 5px;
+}
+.container-licenseinfo{
+    border: 1px solid lightslategray;
+    margin: 0px 5px;
+}
+
+.container-countystate-btn{
+    margin-top: 59px;
+    margin-left: 10px;
+}
+.countystate-btn:hover{
+    color: white;
+    background: dodgerblue;
+}
+
+container-countystate-btn>button:nth-child(1){
+    color: white;
+    background: darkslateblue;
+}
+
+#navigatorstemplate{
+    width: 10em;
+    margin: 0px 6px;
+}
+
+
+.list_al-container{
+    list-style: none;
+    overflow:hidden; overflow-y:scroll;
+    height: 12em;
+}
+
+.container-alcoholinfo{
+    width: 18em;
+    height: auto;
+    background-color: forestgreen;
+    color: white;
+}
