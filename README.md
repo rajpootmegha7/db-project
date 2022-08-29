@@ -30,7 +30,7 @@ STEPS TO BUILD THE APPLICATION:
 
 1. Install node into the system.
     It is a primary requirement as the application is built using node modules. It can be downloaded from https://docs.npmjs.com/downloading-and-installing-node-js-and-npm Or to update use [npm install -g npm] command. To check the version npm -v.
-2. Git pull from https://github.com/mukeshmohanty4708/DatabaseProject/tree/MukeshDev or use the DB_Project.compress to save in your local system other than in any restictive space.
+2. Git pull from https://github.com/rajpootmegha7/db-project.git or use the DB_Project.compress to save in your local system other than in any restictive space.
 3. Make sure to add the all the pyhton dependencies from the requirements.txt (<YOUR PATH>/DB_Project/requirements.txt ).
 4. Open the folder space DB_Project in terminal or cd <YOUR PATH>/DB_Project in terminal.
 5. Execute bash script using command 'bash execute.sh'
